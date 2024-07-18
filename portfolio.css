@@ -1,0 +1,185 @@
+body{
+    background-color:white
+}
+header{
+    background-color: #000000;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 89%, 0 100%) ;
+}
+.flex{
+    display: flex;
+}
+div a{
+    margin-right: 30px;
+    color: var(--pure) saddlebrown;
+    transition: all 3s ease-in;
+    text-decoration: none;
+}
+div a :hover{
+    color: crimson ;
+}
+nav{
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.items-center{
+    align-items: center;
+}
+
+
+.image{
+     padding-top:0px;
+     margin-right: 150px;
+ }
+nav{
+    
+    font-size: x-large ;
+    word-spacing:20px;
+}
+.left{
+    color: burlywood;
+}
+.right{
+        height: 50px;
+        width: 150px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        cursor: pointer;
+        border-width: 80px solid transparent;
+        outline: none;
+        background: scroll;
+        background-color:white ;
+}
+.right:hover{
+    background:skyblue;
+    color:black;
+    cursor: pointer;
+
+}
+
+ .pic-img{
+    width: 180px;
+    padding-top: 30px;
+ }
+.contact{
+    color: brown;
+}
+.hero .left img{
+    width: 1000px;
+}
+.name{
+    color: aliceblue;
+    font-size:  x-large;
+}
+h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: skyblue;
+}
+h1{
+    font-weight: 100;
+}
+span{
+    color: skyblue;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+    width:150px;
+    height: 50px;
+    line-height: 1.2px;
+    background: scroll;
+    color: skyblue;
+    border-color: skyblue;
+    background-color: black ;
+
+}
+.btn:hover{
+    background: skyblue;
+    color:black;
+    cursor: pointer;
+}
+section{
+    padding-left: 400px;
+    padding-top: 50px;
+}
+section.about .flex-1{
+    height: 200px;
+    margin: 100px;
+}
+section.about .flex-2{
+    padding-right:100px;
+}
+section.about h1{
+    font-size:xx-large;
+    font-weight: 600;
+}
+section.about h3{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section.about p{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section.about .icons{
+    font-size: xx-large;
+}
+section.freelancer{
+    padding-left: 900px;
+    padding-bottom: 100px;
+    background-color: black;
+    color: azure;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 80%, 0 100%) 
+}
+.freelancer h1 {
+       font-size: xx-large;
+       font-weight: bold;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+.freelancer p{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-1{
+    width:150px;
+    height: 50px;
+    line-height: 1.2px;
+    background: scroll;
+    color: skyblue;
+    border-color: skyblue;
+    background-color: black ;
+}
+.btn-1:hover{
+    background: skyblue;
+    color:black;
+    cursor: pointer;
+}
+section .container-2{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 100px;
+}
+section.contact-1{
+    font-size: large;
+}
+ section.contact-1 i{
+    font-size: xx-large;
+
+}
+section.contact-1 h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: x-large;
+   font-weight: bold;
+}
+section.contact-1{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
